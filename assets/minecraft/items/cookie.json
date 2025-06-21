@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "diamond_cookie",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/diamond_cookie"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cookie"
+    }
+  }
+}
