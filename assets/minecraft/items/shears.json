@@ -9,6 +9,20 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/netherite_shears"
         }
+      },
+      {
+        "when": "assassin_shears",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/assassin_shears"
+        }
+      },
+      {
+        "when": "assassin_shears_alt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/assassin_shears_alt"
+        }
       }
     ],
     "fallback": {

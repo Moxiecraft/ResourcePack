@@ -1,0 +1,6 @@
+{
+  "parent": "moxiecraft:item/skeleton_bow",
+  "textures": {
+    "layer0": "moxiecraft:item/skeleton_bow_pulling_2"
+  }
+}
