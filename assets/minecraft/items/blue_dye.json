@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "yeti_claw",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/yeti_claw"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/blue_dye"
+    }
+  }
+}
