@@ -38,6 +38,13 @@
           },
           "property": "minecraft:using_item"
         }
+      },
+      {
+        "when": "bow_rifle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/bow_rifle"
+        }
       }
     ],
     "fallback": {
