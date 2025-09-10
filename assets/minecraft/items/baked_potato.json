@@ -9,6 +9,13 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/nether_scorched_potato"
         }
+      },
+      {
+        "when": "end_potato",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/end_potato"
+        }
       }
     ],
     "fallback": {
