@@ -9,6 +9,20 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/explosive_hammer"
         }
+      },
+      {
+        "when": "axeideals",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/void_dark_axe"
+        }
+      },
+      {
+        "when": "axetruth",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/void_light_axe"
+        }
       }
     ],
     "fallback": {
