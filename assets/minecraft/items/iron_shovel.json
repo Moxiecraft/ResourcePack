@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "spicy_shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/spicy_shovel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_shovel"
+    }
+  }
+}

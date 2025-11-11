@@ -23,6 +23,13 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/void_light_axe"
         }
+      },
+      {
+        "when": "spicy_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/spicy_axe"
+        }
       }
     ],
     "fallback": {
