@@ -4,30 +4,30 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "yeti_claw",
+        "when": "special_netherite_sword",
         "model": {
           "type": "minecraft:model",
-          "model": "moxiecraft:item/yeti_claw"
+          "model": "moxiecraft:item/special_netherite_sword"
         }
       },
       {
-        "when": "dungeon_shard_fragment_intermediate",
+        "when": "red_netherite_sword",
         "model": {
           "type": "minecraft:model",
-          "model": "moxiecraft:item/dungeon_shard_fragment_intermediate"
+          "model": "moxiecraft:item/red_netherite_sword"
         }
       },
       {
-        "when": "dungeon_shard_intermediate",
+        "when": "red_wand",
         "model": {
           "type": "minecraft:model",
-          "model": "moxiecraft:item/dungeon_shard_intermediate"
+          "model": "moxiecraft:item/red_wand"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/blue_dye"
+      "model": "minecraft:item/netherite_sword"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "dungeon_shard_fragment_hard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/dungeon_shard_fragment_hard"
+        }
+      },
+      {
+        "when": "dungeon_shard_hard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/dungeon_shard_hard"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/resin_clump"
+    }
+  }
+}

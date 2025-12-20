@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "dungeon_shard_fragment_expert",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/dungeon_shard_fragment_expert"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/flint"
+    }
+  }
+}
