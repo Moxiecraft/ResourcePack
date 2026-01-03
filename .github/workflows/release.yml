@@ -18,12 +18,11 @@ jobs:
       - name: Set version/tag
         id: meta
         run: |
-          # Tag strategy options:
-          # 1) run number: v123
-          # 2) timestamp: v2026.01.03.120501
-          TAG="v${GITHUB_RUN_NUMBER}"
+          TAG="$(date -u +'%Y-%m-%d-%H%M')"
+          ZIP_NAME="resource-pack-$TAG.zip"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          echo "zip_name=resource-pack-$TAG.zip" >> "$GITHUB_OUTPUT"
+          echo "zip_name=$ZIP_NAME" >> "$GITHUB_OUTPUT"
+
 
       - name: Create zip (exclude folders)
         run: |
