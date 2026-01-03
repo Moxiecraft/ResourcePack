@@ -1,0 +1,48 @@
+name: Build and Release Resource Pack
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write  # required to create releases
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set version/tag
+        id: meta
+        run: |
+          # Tag strategy options:
+          # 1) run number: v123
+          # 2) timestamp: v2026.01.03.120501
+          TAG="v${GITHUB_RUN_NUMBER}"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "zip_name=resource-pack-$TAG.zip" >> "$GITHUB_OUTPUT"
+
+      - name: Create zip (exclude folders)
+        run: |
+          ZIP="${{ steps.meta.outputs.zip_name }}"
+
+          # Adjust excludes to your project:
+          # - exclude GitHub workflow files, git metadata, and any dev-only folders
+          zip -r "$ZIP" . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x "assets/minecraft/textures/*" \
+            -x "*.md"
+
+          ls -lah "$ZIP"
+
+      - name: Create GitHub Release and upload zip
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.tag }}
+          files: ${{ steps.meta.outputs.zip_name }}
+          generate_release_notes: true
