@@ -9,6 +9,20 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/icicle_dagger"
         }
+      },
+      {
+        "when": "dungeon_shard_fragment_hard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/dungeon_shard_fragment_hard"
+        }
+      },
+      {
+        "when": "dungeon_shard_hard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/dungeon_shard_hard"
+        }
       }
     ],
     "fallback": {
