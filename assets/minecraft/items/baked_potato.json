@@ -16,6 +16,30 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/end_potato"
         }
+      },
+      {
+        "when": "coriander",
+        "model": {
+          "type": "range_dispatch",
+            "property": "count",
+            "scale": 64,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "model",
+                  "model": "moxiecraft:item/coriander"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "model",
+                  "model": "moxiecraft:item/coriander_stack"
+                }
+              }
+            ]
+        }
       }
     ],
     "fallback": {
