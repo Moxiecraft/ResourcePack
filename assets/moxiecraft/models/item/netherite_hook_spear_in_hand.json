@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "moxiecraft:item/netherite_hook_spear_in_hand"
+  }
+}
