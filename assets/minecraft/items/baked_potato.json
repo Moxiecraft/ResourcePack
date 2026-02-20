@@ -27,14 +27,14 @@
               {
                 "threshold": 0,
                 "model": {
-                  "type": "model",
+                  "type": "minecraft:model",
                   "model": "moxiecraft:item/coriander"
                 }
               },
               {
                 "threshold": 8,
                 "model": {
-                  "type": "model",
+                  "type": "minecraft:model",
                   "model": "moxiecraft:item/coriander_stack"
                 }
               }
