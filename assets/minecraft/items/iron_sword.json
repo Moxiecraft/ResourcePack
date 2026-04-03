@@ -9,6 +9,13 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/spicy_sword"
         }
+      },
+      {
+        "when": "licker",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/licker"
+        }
       }
     ],
     "fallback": {
