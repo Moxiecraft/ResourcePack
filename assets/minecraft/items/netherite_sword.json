@@ -23,6 +23,13 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/red_wand"
         }
+      },
+      {
+        "when": "emerald_wand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/emerald_wand"
+        }
       }
     ],
     "fallback": {

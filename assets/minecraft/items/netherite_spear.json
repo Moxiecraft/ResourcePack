@@ -28,6 +28,27 @@
                 "type": "minecraft:model",
                 "model": "moxiecraft:item/netherite_hook_spear"
               }
+            },
+            {
+              "when": "skiwkw_staff",
+              "model": {
+                "type": "minecraft:model",
+                "model": "moxiecraft:item/red_staff"
+              }
+            },
+            {
+              "when": "bronze_axe",
+              "model": {
+                "type": "minecraft:model",
+                "model": "moxiecraft:item/bronze_axe"
+              }
+            },
+            {
+              "when": "necromancer_spear",
+              "model": {
+                "type": "minecraft:model",
+                "model": "moxiecraft:item/purple_staff"
+              }
             }
           ],
           "fallback": {
@@ -66,6 +87,27 @@
           "model": {
             "type": "minecraft:model",
             "model": "moxiecraft:item/netherite_hook_spear_in_hand"
+          }
+        },
+        {
+           "when": "skiwkw_staff",
+           "model": {
+             "type": "minecraft:model",
+             "model": "moxiecraft:item/red_staff_in_hand"
+           }
+        },
+        {
+          "when": "bronze_axe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "moxiecraft:item/bronze_axe_in_hand"
+          }
+        },
+        {
+          "when": "necromancer_spear",
+          "model": {
+            "type": "minecraft:model",
+            "model": "moxiecraft:item/purple_staff_in_hand"
           }
         }
       ],
