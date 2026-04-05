@@ -38,6 +38,13 @@ jobs:
 
           ls -lah "$ZIP"
 
+      - name: Compute SHA1
+        id: sha1
+        run: |
+          FILE="${{ steps.meta.outputs.zip_name }}"
+          HASH=$(sha1sum "$FILE" | awk '{print $1}')
+          echo "sha1=$HASH" >> "$GITHUB_OUTPUT"
+
       - name: Create GitHub Release and upload zip
         uses: softprops/action-gh-release@v2
         with:
@@ -45,3 +52,8 @@ jobs:
           name: ${{ steps.meta.outputs.tag }}
           files: ${{ steps.meta.outputs.zip_name }}
           generate_release_notes: true
+          body: |
+            ## Resource Pack Release
+
+            **SHA1 Hash:**
+            `${{ steps.sha1.outputs.sha1 }}`
