@@ -3,7 +3,7 @@
   "textures": {
     "layer0": "moxiecraft:item/purple_staff_in_hand"
   },
-  "display":{
+  "display": {
     "thirdperson_righthand": {
       "rotation": [ 5, -270, -40 ],
       "translation": [ 0, 2, 2 ],
