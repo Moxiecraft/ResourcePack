@@ -1,0 +1,6 @@
+{
+  "parent": "moxiecraft:item/advanced_bow_rifle",
+  "textures": {
+    "layer0": "moxiecraft:item/advanced_bow_rifle_pulling_2"
+  }
+}

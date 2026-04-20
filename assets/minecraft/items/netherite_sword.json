@@ -30,6 +30,27 @@
           "type": "minecraft:model",
           "model": "moxiecraft:item/emerald_wand"
         }
+      },
+      {
+        "when": "red_laser_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/red_laser_sword"
+        }
+      },
+      {
+        "when": "blue_laser_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/blue_laser_sword"
+        }
+      },
+      {
+        "when": "yellow_laser_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "moxiecraft:item/yellow_laser_sword"
+        }
       }
     ],
     "fallback": {

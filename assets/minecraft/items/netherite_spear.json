@@ -49,6 +49,20 @@
                 "type": "minecraft:model",
                 "model": "moxiecraft:item/purple_staff"
               }
+            },
+            {
+              "when": "kyruaxe_black",
+              "model": {
+                "type": "minecraft:model",
+                "model": "moxiecraft:item/red_axe"
+              }
+            },
+            {
+              "when": "kyruaxe_white",
+              "model": {
+                "type": "minecraft:model",
+                "model": "moxiecraft:item/blue_axe"
+              }
             }
           ],
           "fallback": {
@@ -90,11 +104,11 @@
           }
         },
         {
-           "when": "skiwkw_staff",
-           "model": {
-             "type": "minecraft:model",
-             "model": "moxiecraft:item/red_staff_in_hand"
-           }
+          "when": "skiwkw_staff",
+          "model": {
+            "type": "minecraft:model",
+            "model": "moxiecraft:item/red_staff_in_hand"
+          }
         },
         {
           "when": "bronze_axe",
@@ -108,6 +122,20 @@
           "model": {
             "type": "minecraft:model",
             "model": "moxiecraft:item/purple_staff_in_hand"
+          }
+        },
+        {
+          "when": "kyruaxe_black",
+          "model": {
+            "type": "minecraft:model",
+            "model": "moxiecraft:item/red_axe_in_hand"
+          }
+        },
+        {
+          "when": "kyruaxe_white",
+          "model": {
+            "type": "minecraft:model",
+            "model": "moxiecraft:item/blue_axe_in_hand"
           }
         }
       ],
